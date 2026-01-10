@@ -8,10 +8,14 @@ body {
 }
 
 header {
-  background: #1e88e5;
+  background: #003f8e;
   color: #fff;
   padding: 40px 20px;
   text-align: center;
+}
+
+h2 {
+  color: #003f8e;
 }
 
 section {
