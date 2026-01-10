@@ -8,10 +8,11 @@ body {
 }
 
 header {
-  background: #005bac; /* SONY BLUE */
+  background: #003f8e; /* パナソニックブルー */
   color: #fff;
-  padding: 40px 20px;
+  padding: 48px 20px;
   text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 h2 {
@@ -21,8 +22,9 @@ h2 {
 section {
   background: #fff;
   margin: 20px;
-  padding: 20px;
-  border-radius: 8px;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
 h1, h2 {
