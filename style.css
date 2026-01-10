@@ -1,16 +1,20 @@
+:root {
+  --main-blue: #003a8f;   /* ソニーブルー（濃） */
+  --sub-blue:  #0050b3;   /* 少し明るめ */
+  --light-blue:#e6f0ff;   /* 背景用 */
+}
+
 body {
-  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
   margin: 0;
-  padding: 0;
-  line-height: 1.7;
-  background-color: #f7f7f7;
-  color: #333;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  background-color: var(--light-blue);
+  color: #222;
 }
 
 header {
-  background: #003f8e; /* パナソニックブルー */
-  color: #fff;
-  padding: 48px 20px;
+  background-color: var(--main-blue);
+  color: #ffffff;
+  padding: 24px 16px;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
@@ -41,7 +45,7 @@ footer {
 nav {
   position: sticky;
   top: 0;
-  background-color: #003a8f; /* ソニーブルー */
+  background-color: var(--sub-blue);
   padding: 10px 0;
   z-index: 1000;
 }
@@ -55,7 +59,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 15px;
+  margin: 0 16px;
 }
 
 nav a {
@@ -68,6 +72,13 @@ nav a:hover {
   text-decoration: underline;
 }
 
+section {
+  background-color: #ffffff;
+  margin: 24px auto;
+  padding: 24px;
+  max-width: 900px;
+  border-radius: 8px;
+}
 
 /* スマホ対応 */
 @media (max-width: 768px) {
