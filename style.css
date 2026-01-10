@@ -56,3 +56,25 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+/* スマホ対応 */
+@media (max-width: 768px) {
+
+  header {
+    padding: 32px 16px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  section {
+    margin: 12px;
+    padding: 16px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+}
