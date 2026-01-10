@@ -80,6 +80,31 @@ section {
   border-radius: 8px;
 }
 
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.price-table th {
+  background-color: var(--main-blue);
+  color: #ffffff;
+  padding: 12px;
+}
+
+.price-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.note {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
 /* スマホ対応 */
 @media screen and (max-width: 768px) {
 
