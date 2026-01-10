@@ -108,6 +108,12 @@ section {
 /* スマホ対応 */
 @media screen and (max-width: 768px) {
 
+  .price-table th,
+  .price-table td {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+  
   header h1 {
     font-size: 1.5rem;
   }
