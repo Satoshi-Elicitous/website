@@ -38,17 +38,28 @@ footer {
   font-size: 0.9em;
 }
 
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #003a8f; /* ソニーブルー */
+  padding: 10px 0;
+  z-index: 1000;
+}
+
 nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0 0;
   display: flex;
   justify-content: center;
-  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
 }
 
 nav a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
@@ -56,6 +67,7 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
 
 /* スマホ対応 */
 @media (max-width: 768px) {
