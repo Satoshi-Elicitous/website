@@ -149,6 +149,21 @@ section {
   text-decoration: underline;
 }
 
+.contact-tel {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.contact-tel a {
+  color: var(--main-blue);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-tel a:hover {
+  text-decoration: underline;
+}
 
 html {
   scroll-behavior: smooth;
