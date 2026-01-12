@@ -113,6 +113,21 @@ section {
 }
 
 
+.contact-btn {
+  background-color: var(--main-blue);
+  color: white;
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  opacity: 0.9;
+}
+
+
 /* スマホ対応 */
 @media screen and (max-width: 768px) {
 
