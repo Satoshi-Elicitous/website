@@ -147,14 +147,18 @@ section {
 }
 
 .contact-mail a {
-  font-size: 1.2rem;
+  display: inline-block;
+  background-color: var(--main-blue);
+  color: white;
+  padding: 14px 24px;
+  border-radius: 6px;
+  font-size: 1.1rem;
   font-weight: bold;
-  color: var(--main-blue);
   text-decoration: none;
 }
 
 .contact-mail a:hover {
-  text-decoration: underline;
+  opacity: 0.9;
 }
 
 .contact-tel {
